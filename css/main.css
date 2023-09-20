@@ -36,6 +36,7 @@ body {
 
 header div {
   background-color: var(--purple);
+  padding: 20px;
 }
 
 h1 {
@@ -63,6 +64,8 @@ nav {
   line-height: 22px;
   display: flex;
   justify-content: center;
+  gap: 20px;
+  padding: 20px 41px 20px 42px;
   background-color: #000;
 }
 
