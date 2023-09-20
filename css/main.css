@@ -197,6 +197,8 @@ h2 {
   line-height: 50px;
   letter-spacing: -2.5px;
   background-color: var(--purple);
+  padding: 20px;
+  margin: 0;
 }
 
 .flex-opportunities {
@@ -205,11 +207,22 @@ h2 {
   font-style: italic;
   line-height: 24px;
   letter-spacing: -1px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .flex-opportunities a {
   border: 1px solid #000;
   background-color: var(--green);
+  padding: 20px 10px;
+  width: 50%;
+  height: 112px;
+}
+
+a:first-child {
+  border-right: none;
+  border-bottom: none;
 }
 
 footer {
