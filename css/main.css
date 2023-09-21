@@ -23,7 +23,7 @@
 
 html {
   font-size: 16px;
-  background-color: #efefef;
+  background-color: #4f4f4f;
   scroll-behavior: smooth;
 }
 
@@ -34,6 +34,7 @@ body {
   max-width: 428px;
   margin: 0 auto;
   font-family: var(--text-light);
+  text-align: center;
   text-transform: uppercase;
   background-color: #fff;
 }
@@ -47,7 +48,6 @@ h1 {
   font-family: var(--titles-bold);
   font-size: 50px;
   line-height: 50px;
-  text-align: center;
 }
 
 h1 span {
@@ -57,7 +57,6 @@ h1 span {
 
 .date-location {
   color: #fff;
-  text-align: center;
   font-size: 20px;
   line-height: 24px;
 }
@@ -105,7 +104,6 @@ nav {
 }
 
 h2 {
-  text-align: center;
   font-size: 50px;
   font-weight: 300;
   line-height: 50px;
@@ -113,14 +111,12 @@ h2 {
 }
 
 .content-programme p {
-  text-align: center;
   font-size: 15px;
   line-height: 15px;
   text-transform: none;
 }
 
 .content-programme strong {
-  text-align: center;
   font-family: var(--titles-bold);
   font-size: 18px;
   line-height: 24px;
@@ -129,7 +125,6 @@ h2 {
 
 .cta-full-programme p {
   color: var(--purple);
-  text-align: center;
   font-family: var(--titles-bold);
   font-size: 15px;
   font-style: italic;
@@ -144,7 +139,6 @@ h2 {
 }
 
 .quote {
-  text-align: center;
   font-family: var(--titles-bold);
   font-size: 30px;
   font-style: italic;
@@ -156,7 +150,6 @@ h2 {
 
 .quote-author {
   font-family: var(--text-light);
-  text-align: center;
   font-size: 15px;
   font-style: normal;
   line-height: 15px;
@@ -176,6 +169,7 @@ h2 {
 .content-news p {
   font-size: 15px;
   line-height: 22px;
+  text-align: left;
   text-transform: none;
   background-color: #fff;
   padding: 20px;
@@ -192,7 +186,6 @@ h2 {
 }
 
 .opportunities h2 {
-  text-align: center;
   font-family: var(--titles-bold);
   font-size: 50px;
   line-height: 50px;
@@ -214,6 +207,7 @@ h2 {
 }
 
 .flex-opportunities a {
+  text-align: left;
   border: 1px solid #000;
   background-color: var(--green);
   padding: 20px 10px;
@@ -233,7 +227,6 @@ footer {
 
 footer h2 {
   color: var(--grey);
-  text-align: center;
   font-family: var(--titles-bold);
   font-size: 50px;
   line-height: 50px;
@@ -247,7 +240,6 @@ footer h2 {
 
 h3 {
   color: #fff;
-  text-align: center;
   font-family: var(--titles-bold);
   font-size: 13px;
   line-height: 18px;
@@ -255,7 +247,6 @@ h3 {
 
 footer a {
   color: #fff;
-  text-align: center;
   font-size: 13px;
   line-height: 18px;
   text-transform: none;
