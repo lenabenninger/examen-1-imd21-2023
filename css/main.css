@@ -48,6 +48,8 @@ h1 {
   font-family: var(--titles-bold);
   font-size: 50px;
   line-height: 50px;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 h1 span {
@@ -72,7 +74,7 @@ nav {
   background-color: #000;
 }
 
-.programme {
+.section-programme {
   padding: 60px 20px;
 }
 
@@ -86,21 +88,14 @@ nav {
   max-width: 189px;
 }
 
-.infos-programme-left,
-.infos-programme-right {
+.infos-programme {
   border: 1px solid #000;
   border-top: 7px solid var(--purple);
   display: flex;
   flex-direction: column;
+  height: 175px;
   gap: 20px;
-}
-
-.infos-programme-left {
-  padding: 20px 5px 54px 0;
-}
-
-.infos-programme-right {
-  padding: 20px 0 30px 5px;
+  padding-top: 20px;
 }
 
 h2 {
@@ -156,7 +151,7 @@ h2 {
   padding-top: 20px;
 }
 
-.news {
+.section-news {
   background-color: var(--beige);
   padding: 60px 20px;
 }
@@ -230,6 +225,7 @@ footer h2 {
   font-family: var(--titles-bold);
   font-size: 50px;
   line-height: 50px;
+  margin-bottom: 20px;
 }
 
 .mail {
